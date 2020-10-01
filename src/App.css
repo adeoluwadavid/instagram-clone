@@ -47,5 +47,7 @@
   }
   .app_postsRight{
     margin-left: 0px;
+    justify-content: center;
+    
   }
 }
