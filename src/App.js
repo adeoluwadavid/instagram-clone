@@ -185,14 +185,14 @@ function App() {
           )}
       </div>
       <div className="app_posts">
-        <div classNAme="app_postsLeft">
+        <div className="app_postsLeft">
           {posts.map(({ id, post }) => (
             <Post key={id} postId={id} user={user} username={post.username} caption={post.caption} imageUrl={post.imageUrl} />
           ))}
         </div>
         <div className="app_postsRight">
           <InstagramEmbed
-            url='https://instagr.am/p/Zw9o4/'
+            url='https://instagr.am/p/Zw9o4/' //https://www.instagram.com/david.o.adewole/
             maxWidth={320}
             hideCaption={false}
             containerTagName='div'
