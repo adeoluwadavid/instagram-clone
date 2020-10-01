@@ -38,11 +38,14 @@
   .app_posts {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    
   }
   .app_signup{
     justify-content: center;
     align-items: center;
     max-width: 700px
+  }
+  .app_postsRight{
+    margin-left: 0px;
   }
 }
