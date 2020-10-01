@@ -106,6 +106,7 @@ function App() {
         open={open}
         onClose={() => setOpen(false)}
       >
+        
         <div style={modalStyle} className={classes.paper}>
           <form className="app_signup">
             <center>
